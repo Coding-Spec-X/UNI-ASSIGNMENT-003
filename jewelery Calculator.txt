@@ -1,0 +1,27 @@
+TRY
+
+ GET the number of diamonds used
+ GET the amount of gold used
+
+ CALCULATE the cost of the diamonds
+ ( = number of diamonds * diamond cost)
+ CALCULATE the cost of the gold
+ ( = amount of gold * gold cost per gram)
+ CALCULATE the base cost of the ring
+ ( = diamond cost + gold cost)
+ CALCULATE the profit margin value
+ ( = base cost * profit margin)
+ CALCULATE the final cost
+ ( = base cost + profit margin value)
+
+ DISPLAY the cost of diamonds, formatted as currency
+ DISPLAY the cost of the gold, formatted as currency
+ DISPLAY the base cost of ring, formatted as currency
+ DISPLAY the final cost of ring, formatted as currency
+
+CATCH
+ Display error message
+ Clear all textboxes
+ Set focus to first input textbox
+
+ENDTRY
